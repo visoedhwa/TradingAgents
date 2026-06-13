@@ -4,7 +4,7 @@ services:
     env_file:
       - .env
     volumes:
-      - tradingagents_data:/home/appuser/.tradingagents
+      - ./tradingagents-data:/home/appuser/.tradingagents
     tty: true
     stdin_open: true
 
